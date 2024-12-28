@@ -1,0 +1,23 @@
+export default {
+  data() {
+    return {
+      menuList [],
+      dynamicMenuRoutes []
+    };
+  },
+  components {
+    SubMenu
+  },
+  mounted() {
+     获取动态菜单数据并且渲染
+    this.menuList = JSON.parse(sessionStorage.getItem(menuList)  []);
+    this.dynamicMenuRoutes = JSON.parse(
+      sessionStorage.getItem(dynamicMenuRoutes)  []
+    );
+  },
+  methods {
+    menuHandler(path) {
+      this.$router.push({ path path });
+    }
+  }
+}
