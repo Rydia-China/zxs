@@ -1,0 +1,11 @@
+<style lang="scss" scoped>
+.index-aside {
+  margin-top: 80px;
+  overflow: hidden;
+  .index-aside-inner {
+    width: 217px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+</style>
