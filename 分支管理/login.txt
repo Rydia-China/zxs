@@ -1,0 +1,37 @@
+<template>
+  <div>
+    <div class="container loginIn">
+      <div :class="2 == 1 ? 'left' : 2 == 2 ? 'left center' : 'left right'" style="backgroundColor: rgba(221, 239, 223, 0.5)">
+        <el-form class="login-form" label-position="left" :label-width="1 == 3 ? '56px' : '0px'">
+          <div class="title-container"><h3 class="title">付费自习室管理系统登录</h3></div>
+          <el-form-item :label="1 == 3 ? '用户名' : ''" :class="'style'+1">
+            <span v-if="1 != 3" class="svg-container" style="color:rgba(16, 15, 15, 0.97);line-height:44px"><svg-icon icon-class="user" /></span>
+            <el-input placeholder="请输入用户名" name="username" type="text" v-model="rulesForm.username" />
+          </el-form-item>
+          <el-form-item :label="1 == 3 ? '密码' : ''" :class="'style'+1">
+            <span v-if="1 != 3" class="svg-container" style="color:rgba(16, 15, 15, 0.97);line-height:44px"><svg-icon icon-class="password" /></span>
+            <el-input placeholder="请输入密码" name="password" type="password" v-model="rulesForm.password" />
+          </el-form-item>
+          <el-form-item v-if="0 == '1'" class="code" :label="1 == 3 ? '验证码' : ''" :class="'style'+1">
+            <span v-if="1 != 3" class="svg-container" style="color:rgba(16, 15, 15, 0.97);line-height:44px"><svg-icon icon-class="code" /></span>
+            <el-input placeholder="请输入验证码" name="code" type="text" v-model="rulesForm.code" />
+            <div class="getCodeBt" @click="getRandCode(4)" style="height:44px;line-height:44px">
+              <span v-for="(item, index) in codes" :key="index" :style="{color:item.color,transform:item.rotate,fontSize:item.size}">{{ item.num }}</span>
+            </div>
+          </el-form-item>
+          <el-form-item label="角色" prop="loginInRole" class="role">
+            <el-radio
+              v-for="item in menus"
+	      v-if="item.hasBackLogin=='是'"
+              v-bind:key="item.roleName"
+              v-model="rulesForm.role"
+              :label="item.roleName"
+            >{{item.roleName}}</el-radio>
+          </el-form-item>
+          <el-button type="primary" @click="login()" class="loginInBt" style="padding:0;font-size:16px;border-radius:20px;height:44px;line-height:44px;width:100%;backgroundColor:rgba(64, 158, 255, 1); borderColor:rgba(64, 158, 255, 1); color:white">{{'1' == '1' ? '登录' : 'login'}}</el-button>
+        </el-form>
+      </div>
+
+    </div>
+  </div>
+</template>
