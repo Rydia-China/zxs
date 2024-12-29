@@ -3,7 +3,7 @@
     <div class="container loginIn">
       <div :class="2 == 1 ? 'left' : 2 == 2 ? 'left center' : 'left right'" style="backgroundColor: rgba(221, 239, 223, 0.5)">
         <el-form class="login-form" label-position="left" :label-width="1 == 3 ? '56px' : '0px'">
-          <div class="title-container"><h3 class="title">付费自习室管理系统登录</h3></div>
+          <div class="title-container"><h3 class="title">付费自习室管理系统登录1</h3></div>
           <el-form-item :label="1 == 3 ? '用户名' : ''" :class="'style'+1">
             <span v-if="1 != 3" class="svg-container" style="color:rgba(16, 15, 15, 0.97);line-height:44px"><svg-icon icon-class="user" /></span>
             <el-input placeholder="请输入用户名" name="username" type="text" v-model="rulesForm.username" />
