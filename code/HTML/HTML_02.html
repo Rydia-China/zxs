@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h1>这个是大标题</h1>-->
+<!--<h2>这是h2标题</h2>-->
+<!--<h3>这是h2标题</h3>-->
+<!--<h4>这是h2标题</h4>-->
+<!--<h5>这是h2标题</h5>-->
+<!--<h6>这是h2标题</h6>-->
+
+<!--会换行的p标签-->
+<p>这是文本标签</p>
+<p>这是文本标签</p>
+<p>这是文本标签</p>
+
+<!--不会换行的span-->
+<span>这是一个span标签</span>
+<span>这是一个span标签</span>
+
+<!--a标签可点击的链接，target用来打开新句柄-->
+<a href="https://www.baidu.com" target="_blank">百度网页</a>
+
+<!--img图标标签-->
+<img src="C:\Users\大东\Desktop\tu\入伍证.jpg">
+
+<!--标签结合图片标签。点击图片可以跳转-->
+<a href="https://www.baidu.com" target="_blank">
+    <img src="C:\Users\大东\Desktop\tu\入伍证.jpg">
+</a>
+
+<!--列表标签 ul标签是个只框架，li标签才是子项-->
+<ul>
+    <li style="display: inline">dota</li>
+    <li style="list-style: none">dota</li>
+    <li>lol</li>
+</ul>
+
+<!--块状元素div-->
+<div style="width: 200px; height: 200px; background-color: pink">
+    <div>我是一个div元素</div>
+</div>
+<div style="width: 100px; height: 100px; background-color: red">我是一个div</div>
+
+<!--表单元素form&input-->
+<input type="text" placeholder="请输入内容"><br>
+<input type="radio">按钮1
+<input type="radio">按钮2<br>
+<input type="button" value="提交">
+
+
+
+<h2>登录</h2>
+<!--form标签里面的元素作为一个整体表单div是一个块状元素-->
+<form>
+    <div>
+        <lable for="uesername">用户名:</lable>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="username" required>
+    </div>
+        <!--select标签选择标签与option做搭配-->
+    <div>
+        <select name="" id="">
+            <option value="">老师</option>
+            <option value="">学生</option>
+        </select>
+    </div>
+    
+    <div>
+        <input type="submit" value="登录">
+    </div>
+</form>
+
+<!--iframe内联框架-->
+<iframe src="HTML_01" width="500px" height="500px"></iframe>
+<iframe src="https://www.bilibili.com/" width="500px" height="500px"></iframe>
+
+
+</body>
+</html>
