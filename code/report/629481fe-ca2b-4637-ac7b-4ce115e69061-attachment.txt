@@ -1,0 +1,5 @@
+[33mWARNING [0m selenium.webdriver.common.selenium_manager:selenium_manager.py:133 The chromedriver version (129.0.6668.70) detected in PATH at C:\Program Files\Google\Chrome\Application\chromedriver.exe might not be compatible with the detected chrome version (130.0.6723.119); currently, chromedriver 130.0.6723.116 is recommended for chrome 130.*, so it is advised to delete the driver in PATH and retry
+[32mINFO    [0m log:base_page.py:43 定位元素('css selector', 'a[href="#/app/login"]')
+[32mINFO    [0m log:base_page.py:107 点击按钮
+[32mINFO    [0m log:assert_util.py:12 预期结果：http://meikefresh.5istudy.online/#/app/login == http://meikefresh.5istudy.online/#/app/login
+[32mINFO    [0m log:assert_util.py:31 断言成功

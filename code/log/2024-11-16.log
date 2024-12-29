@@ -1,0 +1,6 @@
+[2024-11-16 14:19:41,418][base_page.py 43][INFO]: 定位元素('xpath', "//*[@id='s-top-left']/div/a")
+[2024-11-16 14:19:41,873][base_page.py 202][INFO]: 鼠标移动到('xpath', "//*[@id='s-top-left']/div/a")
+[2024-11-16 16:54:16,665][base_page.py 43][INFO]: 定位元素('css selector', 'a[href="#/app/login"]')
+[2024-11-16 16:54:16,815][base_page.py 107][INFO]: 点击按钮
+[2024-11-16 16:54:16,828][assert_util.py 12][INFO]: 预期结果：http://meikefresh.5istudy.online/#/app/login == http://meikefresh.5istudy.online/#/app/login
+[2024-11-16 16:54:16,828][assert_util.py 31][INFO]: 断言成功
