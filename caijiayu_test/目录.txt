@@ -1,0 +1,396 @@
+卷 Windows-SSD 的文件夹 PATH 列表
+卷序列号为 FC47-9FE6
+C:.
+│  babel.config.js
+│  dist.zip
+│  package.json
+│  README.md
+│  vue.config.js
+│  目录.txt
+│  
+├─caijiayu_test
+│      caijiayu_test.txt
+│      indexAside.txt
+│      
+├─public
+│      bg.jpg
+│      favicon.ico
+│      index.html
+│      
+├─src
+│  │  App.vue
+│  │  main.js
+│  │  
+│  ├─assets
+│  │  ├─css
+│  │  │      element-variables.scss
+│  │  │      style.scss
+│  │  │      
+│  │  └─img
+│  │      │  404.png
+│  │      │  avator.png
+│  │      │  bg.jpg
+│  │      │  captcha.jpg
+│  │      │  login.png
+│  │      │  logo.png
+│  │      │  password.png
+│  │      │  role.png
+│  │      │  username.png
+│  │      │  
+│  │      └─test
+│  │              jianshe.png
+│  │              jiaotong.png
+│  │              nongye.png
+│  │              weixin.png
+│  │              zhifubao.png
+│  │              zhongguo.png
+│  │              
+│  ├─components
+│  │  ├─common
+│  │  │      BreadCrumbs.vue
+│  │  │      BreadCrumbs.vue.bak
+│  │  │      Editor.vue
+│  │  │      FileUpload.vue
+│  │  │      
+│  │  ├─home
+│  │  │      HomeCard.vue
+│  │  │      HomeChart.vue
+│  │  │      HomeComment.vue
+│  │  │      HomeProgress.vue
+│  │  │      
+│  │  ├─index
+│  │  │      IndexAside.vue
+│  │  │      IndexAsideStatic.vue
+│  │  │      IndexAsideSub.vue
+│  │  │      IndexHeader.vue
+│  │  │      IndexMain.vue
+│  │  │      
+│  │  └─SvgIcon
+│  │          index.vue
+│  │          
+│  ├─icons
+│  │  │  index.js
+│  │  │  svgo.yml
+│  │  │  
+│  │  └─svg
+│  │      │  404.svg
+│  │      │  articleEdit.svg
+│  │      │  banner.svg
+│  │      │  bug.svg
+│  │      │  build.svg
+│  │      │  cfg.svg
+│  │      │  channel.svg
+│  │      │  chart.svg
+│  │      │  clipboard.svg
+│  │      │  code.svg
+│  │      │  component.svg
+│  │      │  contacts.svg
+│  │      │  dashboard.svg
+│  │      │  date.svg
+│  │      │  dept.svg
+│  │      │  dict.svg
+│  │      │  documentation.svg
+│  │      │  download.svg
+│  │      │  drag.svg
+│  │      │  druid.svg
+│  │      │  edit.svg
+│  │      │  education.svg
+│  │      │  email.svg
+│  │      │  excel.svg
+│  │      │  exit-fullscreen.svg
+│  │      │  eye-open.svg
+│  │      │  file.svg
+│  │      │  form.svg
+│  │      │  fullscreen.svg
+│  │      │  icon.svg
+│  │      │  international.svg
+│  │      │  job.svg
+│  │      │  language.svg
+│  │      │  link.svg
+│  │      │  list.svg
+│  │      │  lock.svg
+│  │      │  log.svg
+│  │      │  logininfor.svg
+│  │      │  menu.svg
+│  │      │  message.svg
+│  │      │  money.svg
+│  │      │  monitor.svg
+│  │      │  nested.svg
+│  │      │  nested0.svg
+│  │      │  online.svg
+│  │      │  operation.svg
+│  │      │  password.svg
+│  │      │  password0.svg
+│  │      │  pdf.svg
+│  │      │  people.svg
+│  │      │  peoples.svg
+│  │      │  phone.svg
+│  │      │  post.svg
+│  │      │  qq.svg
+│  │      │  search.svg
+│  │      │  sender.svg
+│  │      │  server.svg
+│  │      │  shopping.svg
+│  │      │  shoppingCard.svg
+│  │      │  size.svg
+│  │      │  skill.svg
+│  │      │  star.svg
+│  │      │  swagger.svg
+│  │      │  system.svg
+│  │      │  tab.svg
+│  │      │  table.svg
+│  │      │  table0.svg
+│  │      │  task.svg
+│  │      │  template.svg
+│  │      │  theme.svg
+│  │      │  tool.svg
+│  │      │  tree-table.svg
+│  │      │  tree.svg
+│  │      │  user.svg
+│  │      │  user0.svg
+│  │      │  validCode.svg
+│  │      │  wechat.svg
+│  │      │  zip.svg
+│  │      │  
+│  │      └─svg
+│  │              agricultureRegister.svg
+│  │              AI.svg
+│  │              AIDeviceLayout.svg
+│  │              area.svg
+│  │              base.svg
+│  │              batch.svg
+│  │              board.svg
+│  │              board1.svg
+│  │              boardConfig.svg
+│  │              cfg.svg
+│  │              code.svg
+│  │              company.svg
+│  │              crop.svg
+│  │              crops.svg
+│  │              dashboard.svg
+│  │              dataAbnormal.svg
+│  │              dataLack.svg
+│  │              dept.svg
+│  │              device.svg
+│  │              deviceMonitorData.svg
+│  │              dict.svg
+│  │              diseasesinsect.svg
+│  │              diseasesinsects.svg
+│  │              documentation.svg
+│  │              EIM.svg
+│  │              email.svg
+│  │              environmental.svg
+│  │              eye-open.svg
+│  │              farmingProject.svg
+│  │              finance.svg
+│  │              financeBudget.svg
+│  │              financeReality.svg
+│  │              firm.svg
+│  │              firms.svg
+│  │              harvestBatch.svg
+│  │              harvestDetection.svg
+│  │              harvestManage.svg
+│  │              harvestWorks.svg
+│  │              heavyMetalDetection.svg
+│  │              home.svg
+│  │              inspection.svg
+│  │              internet.svg
+│  │              internetActive.svg
+│  │              log.svg
+│  │              mainSystem.svg
+│  │              mainSystemActive.svg
+│  │              menu.svg
+│  │              monitorEquipment.svg
+│  │              news.svg
+│  │              order.svg
+│  │              password.svg
+│  │              peoples.svg
+│  │              pest.svg
+│  │              pestActive.svg
+│  │              pesticideResidue.svg
+│  │              pests.svg
+│  │              phone.svg
+│  │              plant.svg
+│  │              plants.svg
+│  │              plantsActive.svg
+│  │              residual.svg
+│  │              retroactiveCoding.svg
+│  │              scheme.svg
+│  │              source.svg
+│  │              sourceActive.svg
+│  │              system.svg
+│  │              task.svg
+│  │              tempFarm.svg
+│  │              traceability.svg
+│  │              traceabilityList.svg
+│  │              traceabilityStyle.svg
+│  │              user.svg
+│  │              user0.svg
+│  │              validCode.svg
+│  │              video.svg
+│  │              videoEquipment.svg
+│  │              videoKey.svg
+│  │              VIP.svg
+│  │              vipCustomized.svg
+│  │              warnings.svg
+│  │              workOrder.svg
+│  │              ┐┤?х╣▄└э.svg
+│  │              ╓╪╜Ё╩?╝ь▓т╣▄└э.svg
+│  │              
+│  ├─router
+│  │      router-static.js
+│  │      
+│  ├─store
+│  │      store.js
+│  │      
+│  ├─utils
+│  │      api.js
+│  │      base.js
+│  │      http.js
+│  │      i18n.js
+│  │      menu.js
+│  │      storage.js
+│  │      utils.js
+│  │      validate.js
+│  │      
+│  ├─views
+│  │  │  404.vue
+│  │  │  center.vue
+│  │  │  home.vue
+│  │  │  index.vue
+│  │  │  login.vue
+│  │  │  pay.vue
+│  │  │  register.vue
+│  │  │  update-password.vue
+│  │  │  update-password.vue.bak
+│  │  │  
+│  │  └─modules
+│  │      ├─chat
+│  │      │      chat-add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      ├─config
+│  │      │      add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      ├─gonggaoxinxi
+│  │      │      add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      ├─messages
+│  │      │      add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      ├─users
+│  │      │      add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      ├─xuesheng
+│  │      │      add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      ├─zixishi
+│  │      │      add-or-update.vue
+│  │      │      list.vue
+│  │      │      
+│  │      └─zuoweiyuding
+│  │              add-or-update.vue
+│  │              list.vue
+│  │              
+│  └─vm
+│          add-or-update.vue.vm
+│          base.js.vm
+│          http.js.vm
+│          list.vue.vm
+│          login.vue.vm
+│          menu.js.vm
+│          router-static.js.vm
+│          vue.config.js.vm
+│          
+├─zhouyanhong_test
+│  │  Admin.java
+│  │  Base.java
+│  │  Common.java
+│  │  CompareDate.java
+│  │  DateTime.java
+│  │  DBConstants.java
+│  │  EndTime.java
+│  │  JDBCBean.java
+│  │  Manager.java
+│  │  Reader.java
+│  │  Util.java
+│  │  说明文档.txt
+│  │  
+│  └─java
+│      ├─filter
+│      │      AdminFilter.java
+│      │      CharacterEncodingFilter.java
+│      │      ManagerFilter.java
+│      │      XSSFilter.java
+│      │      
+│      ├─javabean
+│      │      Admin.java
+│      │      Base.java
+│      │      Common.java
+│      │      CompareDate.java
+│      │      DateTime.java
+│      │      DBConstants.java
+│      │      EndTime.java
+│      │      JDBCBean.java
+│      │      Manager.java
+│      │      Reader.java
+│      │      Util.java
+│      │      
+│      └─servlet
+│          ├─admin
+│          │      AdminLogin.java
+│          │      BookAdd.java
+│          │      BookDel.java
+│          │      BookEdit.java
+│          │      BookList.java
+│          │      BorrowList.java
+│          │      CardAdd.java
+│          │      CardDel.java
+│          │      CardEdit.java
+│          │      CardList.java
+│          │      LibraryData.java
+│          │      LoginOut.java
+│          │      ManagerAdd.java
+│          │      ManagerDel.java
+│          │      ManagerEdit.java
+│          │      ManagerList.java
+│          │      RuleAdd.java
+│          │      RuleDel.java
+│          │      RuleEdit.java
+│          │      RuleList.java
+│          │      SortAdd.java
+│          │      SortDel.java
+│          │      SortEdit.java
+│          │      SortList.java
+│          │      UpdatePassword.java
+│          │      
+│          ├─manager
+│          │      Announcement.java
+│          │      AnnouncementAdd.java
+│          │      AnnouncementDel.java
+│          │      AnnouncementEdit.java
+│          │      BorrowTable.java
+│          │      ManagerLogin.java
+│          │      Quit.java
+│          │      ReturnTable.java
+│          │      
+│          └─reader
+│                  Book.java
+│                  Borrow.java
+│                  Exit.java
+│                  Illegal.java
+│                  ReaderLogin.java
+│                  
+├─分支管理
+│      login.txt
+│      
+└─提交
+        Datashell.txt
+        ItemData.txt
+        LoginCode.txt
+        
